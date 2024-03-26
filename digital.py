@@ -1,7 +1,6 @@
 from tkinter import *
 import datetime
 
-
 def date_time():
     timenow = datetime.datetime.now()
     now_hour = timenow.strftime('%I')
